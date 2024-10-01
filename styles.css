@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(pexels-dushenkovsky-4100130.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.view {
+  width: 90%;
+  max-width: 480px;
+  backdrop-filter: blur(10px);
+  color: #fff;
+  margin: 100px auto 0;
+  padding: 40px 45px;
+  border-radius: 25px;
+  text-align: center;
+  border: #40296a solid 3px;
+}
+
+.searbox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.searbox input {
+  border: 0;
+  outline: 0;
+  background: #40296a;
+  color: #fff;
+  padding: 10px 25px;
+  height: 60px;
+  border-radius: 27px;
+  flex: 1;
+  margin-right: 15px;
+  font-size: 17px;
+}
+
+.searbox button {
+  border: 0;
+  outline: 0;
+  background: #40296a;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.searbox button img {
+  width: 16px;
+}
+
+.wecon {
+  width: 170px;
+  margin-top: 30px;
+}
+.wheather h1 {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.wheather h2 {
+  font-size: 45px;
+  font-weight: 400;
+  margin-top: -10px;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.humidity,
+.wind {
+  font-size: 26px;
+  margin-top: -6px;
+}
+
+.wheather {
+  display: none;
+}
+
+.error {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  display: none;
+}
